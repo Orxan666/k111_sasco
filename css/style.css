@@ -1,0 +1,104 @@
+.counter-up {
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+}
+.counter-up i {
+  font-size: 50px;
+  padding: 20px;
+}
+
+header {
+  padding: 20px 0;
+  border-bottom: 2px dashed red;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: aqua;
+}
+header .logo {
+  width: 20%;
+}
+header .nav-menu {
+  width: 80%;
+}
+header .nav-menu ul li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: black;
+  font-family: fantasy;
+  font-size: 20px;
+}
+header .nav-menu ul li a:hover .fa-solid {
+  transform: rotate(180deg);
+}
+header .nav-menu ul li a .fa-solid {
+  transform: rotate(0deg);
+  transition: 1s cubic-bezier(0.84, 0.46, 0, 1.33);
+}
+header .nav-menu ul li:last-child {
+  background-color: #534FF8;
+  border-radius: 8mm;
+}
+header .nav-menu ul li:last-child a {
+  color: white;
+}
+
+#seo {
+  padding: 15% 0;
+}
+#seo .box-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 41px;
+}
+#seo .box-text {
+  margin-left: 50px;
+}
+#seo .box-text h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #121933;
+  margin: 0;
+}
+#seo .box-text p {
+  margin-top: 20px;
+  width: 80%;
+}
+#seo .box-text a {
+  background-color: #5450F8;
+  padding: 20px 25px;
+  margin-top: 20px;
+  display: inline-block;
+  border-radius: 8mm;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#marketing {
+  padding: 3rem 0;
+}
+#marketing .box-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#marketing .box-text p {
+  margin: 20px 0;
+  width: 80%;
+}
+#marketing .box-text ul li {
+  padding: 15px 0;
+}
+#marketing .box-text ul li i {
+  color: blue;
+  margin-right: 10px;
+}
+#marketing .box-text a {
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */
